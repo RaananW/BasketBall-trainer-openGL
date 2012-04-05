@@ -47,18 +47,18 @@ void drawStrokeCharacter(float x, float y, float z, char *string) {
 
 void printInstruction() {
 	cout << "Basketball trainer v 1.01b" << endl;
-	cout << "HTW-Berlin, 2009, Raanan Weber (MN 522406)" << endl;
+	cout << "HTW-Berlin, 2009, Raanan Weber" << endl;
 	cout << endl;
-	cout << "Bewegung mit W,A,D,X" << endl;
-	cout << "Rechts/Links schauen mit Q und E" << endl;
-	cout << "Winkel bzw. Staerke eingeben und werfen mit S" << endl;
+	cout << "Movement with W,A,D,X" << endl;
+	cout << "Look right/left Q and E" << endl;
+	cout << "choose throwing strength and angle : S" << endl;
 	cout << endl;
 	cout << "Replay Mode: R" << endl;
-	cout << "Schritt weiter/Ruckwaerts : UP DOWN (Schneller mit LEFT RIGHT)" << endl;
-	cout << "Zeigen der Spur des Balls: T" << endl;
+	cout << "Replay mode steps control : UP DOWN (Faster with LEFT RIGHT)" << endl;
+	cout << "Show the track of the last throw: T" << endl;
 	cout << "End Replay Mode : F" << endl;
 	cout << endl;
-	cout << "Level waehlen mit Rechts-Click." << endl;
+	cout << "Choose level with right mouse click." << endl;
 }
 
 void keyboard(unsigned char key, int x, int y) {
